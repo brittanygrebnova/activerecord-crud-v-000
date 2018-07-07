@@ -93,11 +93,7 @@ def can_destroy_all_items_at_once
   10.times do |i|
     Movie.create(title: "Movie_#{i}")
   end
-<<<<<<< HEAD
   Movie.destroy_all
-=======
-  Movie.all.destroy
->>>>>>> bbfcf928928c4f5812029f6cf678919a5b2fa6a1
 end
 
 
